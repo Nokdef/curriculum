@@ -11,15 +11,15 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "require.js", "index.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "jquery.musepolyfill.bgsize.js", "require.js", "index.css"], "outOfDate":[]};
 </script>
   
   <title>Home</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=443350757"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4115821936" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4151008635" id="pagesheet"/>
    </head>
- <body>
+ <body class="museBGSize">
 
   <div class="clearfix borderbox" id="page"><!-- column -->
    <div class="position_content" id="page_position_content">
@@ -33,7 +33,17 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     </div>
     <img class="colelem" id="u128-4" alt="Quem sou eu?" src="images/u128-4.png?crc=417210895" data-image-width="214"/><!-- rasterized frame -->
     <img class="colelem" id="u142-11" alt="&nbsp;Como aprendi inglês ainda na infância, tive influências muito variadas, desde Mel Brooks e Monty Python até Quentin Tarantino e Tolkien, logo fui sugado pelo mundo dos videogames, onde gradativamente me integrei na edição de vídeo, fazendo pequenas curtas no Source Film Maker onde misturava os jogos de palavras de Mel Brooks com a vasta mitologia de Tolkien. Ali me encantei pela arte de editar videos e trazer a sinergia e o ritmo capaz de manipular um espectador. Logo em seguida migrei para o pacote Adobe, onde aprendi muito mais além de edição de vídeo. Me aprofundei em identidade visual, pós produção e tipografia, e ainda hoje apuro minhas habilidades. " src="images/u142-11.png?crc=3952963042" data-image-width="814"/><!-- rasterized frame -->
-    <div class="verticalspacer" data-offset-top="568" data-content-above-spacer="568" data-content-below-spacer="62"></div>
+    <img class="colelem" id="u270-4" alt="QUALIFICAÇÕES" src="images/u270-4.png?crc=11934833" data-image-width="290"/><!-- rasterized frame -->
+    <div class="clearfix colelem" id="pu221"><!-- group -->
+     <div class="browser_width grpelem" id="u221-bw">
+      <div id="u221"><!-- simple frame --></div>
+     </div>
+     <div class="museBGSize clearfix grpelem" id="u187"><!-- column -->
+      <img class="colelem" id="u264-4" alt="INGLÊS FLUENTE" src="images/u264-4.png?crc=205266958" data-image-width="257"/><!-- rasterized frame -->
+      <img class="colelem" id="u267-4" alt="Ao fazer o teste de nivelamento em 2017, recebi a pontuação de 9/10, reconhecido como nível C1 de fluência, apenas um nível abaixo do máximo." src="images/u267-4.png?crc=4086371685" data-image-width="256"/><!-- rasterized frame -->
+     </div>
+    </div>
+    <div class="verticalspacer" data-offset-top="977" data-content-above-spacer="978" data-content-below-spacer="371"></div>
    </div>
   </div>
   <!-- Other scripts -->
@@ -42,7 +52,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 16);return 0},g=function(g){for(var f=document.getElementsByTagName("link"),h=0;h<f.length;h++)if("text/css"==f[h].type){var i=(f[h].href||"").match(/\/?css\/([\w\-]+\.css)\?crc=(\d+)/);if(!i||!i[1]||!i[2])break;b[i[1]]=i[2]}f=document.createElement("div");f.className="version";f.style.cssText="display:none; width:1px; height:1px;";document.getElementsByTagName("body")[0].appendChild(f);for(h=0;h<Muse.assets.required.length;){var i=Muse.assets.required[h],l=i.match(/([\w\-\.]+)\.(\w+)$/),k=l&&l[1]?
 l[1]:null,l=l&&l[2]?l[2]:null;switch(l.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");f.className+=" "+k;k=a(c(f,"color"));l=a(c(f,"backgroundColor"));k!=0||l!=0?(Muse.assets.required.splice(h,1),"undefined"!=typeof b[i]&&(k!=b[i]>>>24||l!=(b[i]&16777215))&&Muse.assets.outOfDate.push(i)):h++;f.className="version";break;case "js":h++;break;default:throw Error("Unsupported file type: "+l);}}d?d().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 f.parentNode.removeChild(f);if(Muse.assets.outOfDate.length||Muse.assets.required.length)f="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",g&&Muse.assets.outOfDate.length&&(f+="\nOut of date: "+Muse.assets.outOfDate.join(",")),g&&Muse.assets.required.length&&(f+="\nMissing: "+Muse.assets.required.join(",")),alert(f)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?setTimeout(function(){g(!0)},5E3):g()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch"],function(d){var $ = d;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch","jquery.musepolyfill.bgsize"],function(d){var $ = d;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
