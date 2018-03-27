@@ -1,7 +1,20 @@
-<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://github.com/Nokdef/resume.github.io" resolutions="1x" timestamp="1522163003744">
+<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://github.com/Nokdef/resume.github.io" resolutions="1x" timestamp="1522167247662">
+  <folder name="images">
+    <file name="featured.jpg" crc="270136303" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="bg_03.jpg" crc="4196002318" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u108-4.png" crc="296360651" ref="index"/>
+    <file name="u113-4.png" crc="327875990" ref="index"/>
+    <file name="u128-4.png" crc="417210895" ref="index"/>
+    <file name="u142-11.png" crc="3952963042" ref="index"/>
+  </folder>
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
-    <file name="index.css" crc="3974596306" ref="index"/>
+    <file name="index.css" crc="4115821936" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -11,5 +24,5 @@
     <file name="jquery.watch.js" crc="3844535323" ref="index"/>
     <file name="require.js" crc="4234670167" ref="index"/>
   </folder>
-  <file name="index.html" crc="240903112" seo="true" mt="1522162941783" redirect="true"/>
+  <file name="index.html" crc="4068394853" seo="true" mt="1522167241822" redirect="true"/>
 </manifest>
