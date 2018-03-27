@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://github.com/Nokdef/resume.github.io" resolutions="1x" timestamp="1522180312188">
+<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://github.com/Nokdef/resume.github.io" resolutions="1x" timestamp="1522193834418">
   <folder name="images">
     <file name="bg_03.jpg" crc="4196002318" ref="index">
       <caption webpage="index" alt=""/>
@@ -25,7 +25,7 @@
     <file name="u113-4.png" crc="327875990" ref="index"/>
     <file name="u128-4.png" crc="417210895" ref="index"/>
     <file name="u142-11.png" crc="3952963042" ref="index"/>
-    <file name="after fx.png" crc="269275878" ref="index">
+    <file name="after fx.png" crc="4014100356" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="adobepack.png" crc="4211036089" ref="index">
@@ -35,10 +35,20 @@
     <file name="u436-4.png" crc="3763856269" ref="index"/>
     <file name="u456-4.png" crc="157707367" ref="index"/>
     <file name="u459-4.png" crc="3873112976" ref="index"/>
+    <file name="u493-4.png" crc="151419762" ref="index"/>
+    <file name="featured.jpg" crc="164055768" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="icon_weapons_sniper_01_l.png" crc="3776532501" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="icon_weapons_sk_sniper_02_l.png" crc="422891197" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
-    <file name="index.css" crc="346972510" ref="index"/>
+    <file name="index.css" crc="85706010" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -49,5 +59,5 @@
     <file name="require.js" crc="4234670167" ref="index"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="3880853905" ref="index"/>
   </folder>
-  <file name="index.html" crc="3867593303" seo="true" mt="1522180283102" redirect="true"/>
+  <file name="index.html" crc="4247561854" seo="true" mt="1522193806790" redirect="true"/>
 </manifest>
